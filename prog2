@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    
+    int num;
+    
+    printf("Введите число: ");
+    scanf("%d", &num);
+    
+    while(num % 2 == 0){
+        printf("четное");
+        break;
+    }   
+    while(num % 2 != 0) {
+        printf("нечетное");
+        break;
+    }
+    
+return 0;
+    
+}
